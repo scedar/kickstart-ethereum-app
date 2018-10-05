@@ -1,0 +1,38 @@
+{
+  "name": "kickstart",
+  "version": "0.0.1",
+  "description": "Kickstart solidity fund raising project",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [
+    "kickstart",
+    "solidity",
+    "solc",
+    "etherium",
+    "blockchain",
+    "funds",
+    "ether"
+  ],
+  "author": "dmutende",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^7.0.0",
+    "ganache-cli": "^6.1.8",
+    "mocha": "^5.2.0",
+    "moment": "^2.22.2",
+    "next": "^4.1.4",
+    "next-routes": "^1.4.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "semantic-ui-css": "^2.4.0",
+    "semantic-ui-react": "^0.82.5",
+    "solc": "^0.4.25",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.36"
+  }
+}
