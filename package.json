@@ -1,6 +1,6 @@
 {
   "name": "kickstart",
-  "version": "0.0.1",
+  "version": "0.0.1.PROD",
   "description": "Kickstart solidity fund raising project",
   "main": "index.js",
   "scripts": {
